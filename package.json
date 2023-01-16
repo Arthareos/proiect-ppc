@@ -1,7 +1,19 @@
 {
-  "dependencies": {
-    "@tensorflow/tfjs-node": "^4.2.0",
-    "firebase": "^9.15.0",
-    "firebase-tools": "^11.20.0"
-  }
+  "name": "proiect-ppc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthareos/proiect-ppc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arthareos/proiect-ppc/issues"
+  },
+  "homepage": "https://github.com/Arthareos/proiect-ppc#readme"
 }

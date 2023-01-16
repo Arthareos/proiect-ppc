@@ -1,8 +1,9 @@
 {
   "name": "functions",
+  "description": "Cloud Functions for Firebase",
   "scripts": {
-    "serve": "npm run build && firebase emulators:start --only functions",
-    "shell": "npm run build && firebase functions:shell",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
     "start": "npm run shell",
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
@@ -15,11 +16,12 @@
     "@babel/polyfill": "^7.12.1",
     "@tensorflow-models/knn-classifier": "^1.2.4",
     "@tensorflow-models/mobilenet": "^2.1.0",
-    "@tensorflow/tfjs": "^4.2.0",
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "firebase-admin": "^10.2.0",
-    "firebase-functions": "^3.21.0"
+    "@tensorflow/tfjs-node": "^4.2.0",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
   },
   "private": true
 }
