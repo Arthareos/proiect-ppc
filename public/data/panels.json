@@ -1,0 +1,44 @@
+[
+    {
+      "id": 0,
+      "model": "Quilk",
+      "cost": 57,
+      "power": 3842,
+      "size": 2
+    },
+    {
+      "id": 1,
+      "model": "Zilodyne",
+      "cost": 60,
+      "power": 4603,
+      "size": 4
+    },
+    {
+      "id": 2,
+      "model": "Turnling",
+      "cost": 60,
+      "power": 3118,
+      "size": 3
+    },
+    {
+      "id": 3,
+      "model": "Applideck",
+      "cost": 71,
+      "power": 1870,
+      "size": 1
+    },
+    {
+      "id": 4,
+      "model": "Ontagene",
+      "cost": 75,
+      "power": 2607,
+      "size": 2
+    },
+    {
+      "id": 5,
+      "model": "Waretel",
+      "cost": 95,
+      "power": 4617,
+      "size": 4
+    }
+]

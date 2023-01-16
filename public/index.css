@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+}
+
+#loading-overlay {
+    height: 100vh;
+    width: 100vw;
+
+    display: none!important;
+}
+
+#content-container {
+    max-width: 1200px;
+    min-width: 768px;
+
+    margin-top: 5rem;
+    padding: 0px 16px;
+}
+
+#response-box {
+    height: 3rem;
+    display: none;
+}
+
+#response-train-box {
+    height: 3rem;
+    display: none;
+}
+
+.go-bottom {
+    margin-top: 2rem;
+}
+
+.accordion-header strong {
+    font-size: 1.5rem;
+}
+
+.badge {
+    height: 100%;
+    width: 100%;
+
+    color: var(--bs-accordion-active-color);
+    background-color: var(--bs-accordion-active-bg);
+}
+
+.badge p {
+    font-size: 1.25rem;
+    margin: 0px;
+}
+
+.card {
+    border: 0;
+
+    -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.05); 
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.05);
+}
+
+body {
+    background-color: #fafafc;
+}
